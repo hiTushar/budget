@@ -72,7 +72,7 @@ function App() {
                         <label htmlFor='name' className='mb-2'>Enter new Budget Amount</label>
                         <input 
                           required={true}
-                          type='text'
+                          type='number'
                           className="form-control mb-3"
                           id='name'
                           ref={newBudget}
